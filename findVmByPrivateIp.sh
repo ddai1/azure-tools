@@ -4,12 +4,14 @@ set -euo pipefail
 
 function findVM
 {
-  INIRESULT=$(az network nic list --subscription $1| jq -r --arg PIP "$2" '.[]| select (.ipConfigurations[0].privateIpAddress==$PIP) | .ipConfigurations[0].privateIpAddress + "@" + .virtualMachine.id + "@" + .virtualMachine.resourceGroup')
+  INIRESULT=$(az vm list-ip-addresses --subscription $1 | jq -r --arg IP "$2" 'map(select(.virtualMachine.network.privateIpAddresses[] | select (.==$IP))) | .[] | .virtualMachine.name +  "," + .virtualMachine.resourceGroup')
+  #az vm list-ip-addresses | jq -r 'map(select(.virtualMachine.network.publicIpAddresses[] | select(.ipAddress=="20.186.114.224"))) | .[] | .virtualMachine.name +  "," + .virtualMachine.resourceGroup'
+
   if [[ -n $INIRESULT ]];
   then
-    read -r IP VMName RG <<< $(awk -F "[@/]" '{print $1, $(NF-1), $(NF)}' <<< "${INIRESULT}")
+    read -r VMName RG <<< $(awk -F "[,]" '{print $1, $2}' <<< "${INIRESULT}")
     SUBACCOUNTNAME=$(az account list --all | jq -r --arg ACCOUNTID "$1" '.[] | select (.id==$ACCOUNTID) | .name')
-    echo "Search IP: ${PIP}"
+    echo "Search IP: ${ipAddress}"
     echo "SubAccount: ${SUBACCOUNTNAME}"
     echo "VirtualMachine Name: ${VMName}"
     echo "Resource Group: ${RG}"
@@ -20,23 +22,23 @@ function findVM
 
 usage() { echo "Usage: $0 -i <PIP>" 1>&2; exit 1; }
 
-declare PIP=""
+declare ipAddress=""
 # Initialize parameters specified from command line
 while getopts "i:" arg; do
   case "${arg}" in
     i)
-      PIP=${OPTARG}
+      ipAddress=${OPTARG}
       ;;
     esac
 done
 shift $((OPTIND-1))
 
 #Prompt for parameters is some required parameters are missing
-if [[ -z "$PIP" ]]; then
-  echo "You need to provide your private IP"
+if [[ -z "$ipAddress" ]]; then
+  echo "You need to provide your ipAddress"
   echo "Enter the private IP"
-  read PIP
-  [[ "${PIP:?}" ]]
+  read ipAddress
+  [[ "${ipAddress:?}" ]]
 fi
 
 # verify if the az cli has login.
@@ -53,5 +55,5 @@ SUBACCOUNTS=$(az account list --all | jq -r '.[] | .id')
 
 for SUBACCOUNT in ${SUBACCOUNTS};
 do
-  findVM $SUBACCOUNT $PIP
+  findVM $SUBACCOUNT $ipAddress
 done
