@@ -13,4 +13,13 @@ There is no feature in Azure console to find the Virtual Machine by IP address.
 How to use:
 ```bash
 ./findVmByPrivateIp.sh -i [IP Address]
+
+```
+return data if data has been found:
+```bash
+Search IP: [IP Address]  
+IP type: Public IP/Private IP
+SubAccount: [related subaccount]
+VirtualMachine Name: [name of your VM]
+Resource Group: [name of your resource group]
 ```
