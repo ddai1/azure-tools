@@ -4,14 +4,27 @@ set -euo pipefail
 
 function findVM
 {
-  INIRESULT=$(az vm list-ip-addresses --subscription $1 | jq -r --arg IP "$2" 'map(select(.virtualMachine.network.privateIpAddresses[] | select (.==$IP))) | .[] | .virtualMachine.name +  "," + .virtualMachine.resourceGroup')
-  #az vm list-ip-addresses | jq -r 'map(select(.virtualMachine.network.publicIpAddresses[] | select(.ipAddress=="20.186.114.224"))) | .[] | .virtualMachine.name +  "," + .virtualMachine.resourceGroup'
+  BASEREULT=$(az vm list-ip-addresses --subscription $1)
+  RES_PRIVATE=$(echo $BASEREULT | jq -r --arg IP "$2" 'map(select(.virtualMachine.network.privateIpAddresses[] | select (.==$IP))) | .[] | .virtualMachine.name +  "," + .virtualMachine.resourceGroup')
+  RES_PUBLIC=$(echo $BASEREULT | jq -r --arg IP "$2" 'map(select(.virtualMachine.network.publicIpAddresses[] | select(.ipAddress==$IP))) | .[] | .virtualMachine.name +  "," + .virtualMachine.resourceGroup')
 
-  if [[ -n $INIRESULT ]];
+  if [[ -n $RES_PRIVATE ]];
   then
-    read -r VMName RG <<< $(awk -F "[,]" '{print $1, $2}' <<< "${INIRESULT}")
+    read -r VMName RG <<< $(awk -F "[,]" '{print $1, $2}' <<< "${RES_PRIVATE}")
     SUBACCOUNTNAME=$(az account list --all | jq -r --arg ACCOUNTID "$1" '.[] | select (.id==$ACCOUNTID) | .name')
     echo "Search IP: ${ipAddress}"
+    echo "IP type: Private IP"
+    echo "SubAccount: ${SUBACCOUNTNAME}"
+    echo "VirtualMachine Name: ${VMName}"
+    echo "Resource Group: ${RG}"
+    exit 1
+  fi
+  if [[ -n $RES_PUBLIC ]];
+  then
+    read -r VMName RG <<< $(awk -F "[,]" '{print $1, $2}' <<< "${RES_PUBLIC}")
+    SUBACCOUNTNAME=$(az account list --all | jq -r --arg ACCOUNTID "$1" '.[] | select (.id==$ACCOUNTID) | .name')
+    echo "Search IP: ${ipAddress}"
+    echo "IP type: Public IP"
     echo "SubAccount: ${SUBACCOUNTNAME}"
     echo "VirtualMachine Name: ${VMName}"
     echo "Resource Group: ${RG}"
