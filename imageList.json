@@ -1,0 +1,3830 @@
+[
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201909271139-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201909271139-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage01-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage01-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3596,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage01-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage01-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage01-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage01-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": false
+    },
+    "tags": null,
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201910021615-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201910021615-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3596,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201910030203-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201910030203-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3596,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201910031131-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201910031131-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201910040204-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201910040204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201910050204-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201910050204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201910060203-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201910060203-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201910251255-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201910251255-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201910281515-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201910281515-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201910290205-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201910290205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201910311025-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201910311025-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911060203-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911060203-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911070203-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911070203-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911080204-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911080204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911090204-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911090204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911100205-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911100205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911110204-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911110204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911120205-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911120205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911130207-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911130207-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911140206-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911140206-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911150204-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911150204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911160203-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911160203-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911170204-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911170204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911180203-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911180203-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911190203-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911190203-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911200205-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911200205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911210204-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911210204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911220203-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911220203-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911230203-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911230203-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911240204-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911240204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911250205-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911250205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911260204-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911260204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911270204-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911270204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue2-devdb201911280205-img",
+    "location": "eastus2",
+    "name": "md-ue2-devdb201911280205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue2-devdbimage01-vm",
+      "resourceGroup": "si-ue2-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-datadisk",
+            "resourceGroup": "si-ue2-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue2-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue2-devdbimage01-osdisk",
+          "resourceGroup": "si-ue2-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201910231241-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201910231241-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/md-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "md-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/md-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "md-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/md-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "md-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": false
+    },
+    "tags": null,
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201910251522-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201910251522-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": false
+    },
+    "tags": null,
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201910281240-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201910281240-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": false
+    },
+    "tags": null,
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201910311025-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201910311025-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911010204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911010204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911020205-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911020205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911030205-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911030205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911040204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911040204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911050204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911050204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911060204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911060204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911070204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911070204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911080204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911080204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911090204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911090204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911190204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911190204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911200205-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911200205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911210203-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911210203-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911220203-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911220203-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911230205-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911230205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911240204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911240204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911250204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911250204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911260204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911260204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911270204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911270204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-ue-devdb201911280204-img",
+    "location": "eastus",
+    "name": "md-ue-devdb201911280204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-ue-devdbimage01-vm",
+      "resourceGroup": "si-ue-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-datadisk",
+            "resourceGroup": "si-ue-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-ue-devdbimage-rg/providers/Microsoft.Compute/disks/md-ue-devdbimage01-osdisk",
+          "resourceGroup": "si-ue-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201910281347-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201910281347-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Standard_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Standard_LRS"
+      },
+      "zoneResilient": false
+    },
+    "tags": null,
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201910311025-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201910311025-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911010205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911010205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911020204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911020204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911030204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911030204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911040205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911040205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911050205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911050205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911060205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911060205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911070204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911070204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911080204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911080204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911090205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911090205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911100205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911100205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911110204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911110204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911120205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911120205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911130205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911130205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911140204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911140204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911150204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911150204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911160204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911160204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911170204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911170204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911180204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911180204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911190204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911190204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911200205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911200205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911210205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911210205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911220205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911220205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911230204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911230204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911240205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911240205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911250205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911250205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911260205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911260205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911270204-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911270204-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  },
+  {
+    "hyperVgeneration": "V1",
+    "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/SI-UE2-VIRTUALMACHINEIMAGES-RG/providers/Microsoft.Compute/images/md-jpe-devdb201911280205-img",
+    "location": "japaneast",
+    "name": "md-jpe-devdb201911280205-img",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "SI-UE2-VIRTUALMACHINEIMAGES-RG",
+    "sourceVirtualMachine": {
+      "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/virtualMachines/md-jpe-devdbimage01-vm",
+      "resourceGroup": "si-jpe-devdbimage-rg"
+    },
+    "storageProfile": {
+      "dataDisks": [
+        {
+          "blobUri": null,
+          "caching": "None",
+          "diskSizeGb": 3072,
+          "lun": 0,
+          "managedDisk": {
+            "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-datadisk",
+            "resourceGroup": "si-jpe-devdbimage-rg"
+          },
+          "snapshot": null,
+          "storageAccountType": "Premium_LRS"
+        }
+      ],
+      "osDisk": {
+        "blobUri": null,
+        "caching": "ReadWrite",
+        "diskSizeGb": 30,
+        "managedDisk": {
+          "id": "/subscriptions/71294299-6fce-468f-a7aa-3bc74df54a16/resourceGroups/si-jpe-devdbimage-rg/providers/Microsoft.Compute/disks/md-jpe-devdbimage01-osdisk",
+          "resourceGroup": "si-jpe-devdbimage-rg"
+        },
+        "osState": "Generalized",
+        "osType": "Linux",
+        "snapshot": null,
+        "storageAccountType": "Premium_LRS"
+      },
+      "zoneResilient": null
+    },
+    "tags": {},
+    "type": "Microsoft.Compute/images"
+  }
+]
