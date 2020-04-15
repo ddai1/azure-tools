@@ -23,5 +23,4 @@ SubAccount: [related subaccount]
 VirtualMachine Name: [name of your VM]
 Resource Group: [name of your resource group]
 ```
-new test with mine subnets
-
+test with phil's subnets
