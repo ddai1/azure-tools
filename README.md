@@ -23,4 +23,4 @@ SubAccount: [related subaccount]
 VirtualMachine Name: [name of your VM]
 Resource Group: [name of your resource group]
 ```
-test with phil's subnets
+Test with cf-2-tf
