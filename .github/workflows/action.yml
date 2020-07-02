@@ -1,0 +1,17 @@
+name: ECHO GITHUB_CONTEXT
+
+on:
+  push:
+    branches:
+      - test
+
+jobs:
+  deploy:
+    name: Echo GITHUB_CONTEXT
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Dump Gitbhub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo $GITHUB_CONTEXT
