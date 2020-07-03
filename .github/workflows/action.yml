@@ -14,4 +14,11 @@ jobs:
       - name: Dump Gitbhub context
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo $GITHUB_CONTEXT
+          GIT_SHA:      ${{ github.sha }}
+          REPO_NAME:    ${{ github.repository }}
+          REPO_BRANCH:  ${{ github.ref }}
+        run: |
+          #echo $GITHUB_CONTEXT
+          echo $GIT_SHA
+          echo $REPO_NAME
+          echo $REPO_BRANCH
