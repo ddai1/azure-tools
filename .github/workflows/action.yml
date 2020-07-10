@@ -1,0 +1,26 @@
+name: ECHO GITHUB_CONTEXT
+
+on:
+  push:
+    branches:
+      - test
+
+jobs:
+  deploy:
+    name: Echo GITHUB_CONTEXT
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Dump Gitbhub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+          GIT_SHA:      ${{ github.sha }}
+          REPO_NAME:    ${{ github.repository }}
+          REPO_BRANCH:  ${{ github.ref }}
+        run: |
+          #echo $GITHUB_CONTEXT
+          REPO_BRANCH=$(echo $REPO_BRANCH | awk -F'/' '{print $3}')
+          GIT_SHA=$(echo ${GIT_SHA:0:7})
+          echo $REPO_NAME
+          echo $REPO_BRANCH
+          echo $GIT_SHA
