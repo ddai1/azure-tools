@@ -23,3 +23,4 @@ SubAccount: [related subaccount]
 VirtualMachine Name: [name of your VM]
 Resource Group: [name of your resource group]
 ```
+Test with cf-2-tf with fresh try
